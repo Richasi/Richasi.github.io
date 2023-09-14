@@ -417,12 +417,10 @@ img {
   background-color: transparent;
   color: var(--first-color-alt);
 }
-.round-img {
-  border-radius: 50% !important;
-  width: 100%!important;
-  height:  100% !important;
-  object-fit: cover !important;
-}
+
+
+/* Apply border-radius to make the image round */
+
 /*==================== ABOUT ====================*/
 .about__img{
   width: 200px;
