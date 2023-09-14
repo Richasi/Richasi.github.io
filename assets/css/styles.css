@@ -417,7 +417,11 @@ img {
   background-color: transparent;
   color: var(--first-color-alt);
 }
+.round-img {
+  border-radius: 100% !important;
 
+  object-fit: cover !important;
+}
 /*==================== ABOUT ====================*/
 .about__img{
   width: 200px;
