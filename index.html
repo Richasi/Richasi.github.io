@@ -38,11 +38,12 @@
       <li>
 
      
-        <a href="assets\pdf\Richa-Singh-Resume.pdf"  class="nav-link resume" id="resume-button-1" download 
-       > <button onclick="openLink()">
-          <i class="uil uil-message nav__icon"></i> Resume</button>
-
-        </a>
+        <a href="assets/pdf/Richa-Singh-Resume.pdf" id="resume-button-1" download target="_blank"
+        class="button button--flex">
+        <button onclick="openResumeLink()">
+        Resume<i class="uil uil-folder-download button__icon"></i>
+        </button>
+      </a>
       </li>
 
 
@@ -139,11 +140,12 @@
               <button onclick="openLink()" id="download-resume-btn">Download Resume </button>
             </a> -->
 
-            <a href="assets\pdf\Richa-Singh-Resume.pdf" id="resume-button-2" download class="button button--flex">
-              <button onclick="openLink()">
-              Download Resume<i class="uil uil-folder-download button__icon"></i></button>
-
-            </a>
+            <a href="assets/pdf/Richa-Singh-Resume.pdf" id="resume-button-2" download target="_blank"
+            class="button button--flex">
+            <button onclick="openResumeLink()">
+              Download Resume<i class="uil uil-folder-download button__icon"></i>
+            </button>
+          </a>
 
 
           </div>
@@ -600,7 +602,7 @@
 <script>
   // or enable responsive functionality
   GitHubCalendar(".calender", "Richasi", { responsive: true });
-  function openLink() {
+  function openResumeLink() {
     // Replace 'https://example.com' with the actual URL you want to open
     const linkUrl = 'https://drive.google.com/file/d/1Bg6mWZ_Zr2gnSjwQjaD58Oc2I-owWXFu/view?usp=sharing';
     window.open(linkUrl, '_blank');
