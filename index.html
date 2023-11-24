@@ -38,8 +38,9 @@
       <li>
 
        <a href="assets\pdf\Richa Singh-Full Stack Web Developer (2).pdf" id="resume-button-1" download>
-          <button onclick="openLink()" style="background-color: #D6B7C2; color: #EBE7FE; font-size: 17.8px;"
-            id="download-resume-btn"> Resume </button>
+        <button onclick="downloadResume()" style="background-color: #D6B7C2; color: #EBE7FE; font-size: 17.8px;" id="download-resume-btn">Resume</button>
+ 
+    
         </a> 
         <!--a href="assets\pdf\Richa Singh-Full Stack Web Developer (2).pdf"  class="nav-link resume" id="resume-button-1" download 
        > <button onclick="openLink()">
@@ -139,7 +140,8 @@
           <div class="about__buttons">
 
              <a href="assets\pdf\Richa Singh-Full Stack Web Developer (2).pdf" id="resume-button-2" download>
-              <button onclick="openLink()" id="download-resume-btn">Download Resume </button>
+              <button onclick="downloadResume()" style="background-color: #D6B7C2; color: #EBE7FE; font-size: 17.8px;" id="download-resume-btn">Resume</button>
+
             </a> 
 
             <!--a href="assets\pdf\Richa Singh-Full Stack Web Developer (2).pdf" id="resume-button-2" download class="button button--flex">
@@ -603,11 +605,17 @@
 <script>
   // or enable responsive functionality
   GitHubCalendar(".calender", "Richasi", { responsive: true });
-  function openLink() {
-    // Replace 'https://example.com' with the actual URL you want to open
-    const linkUrl = 'https://drive.google.com/file/d/1Bg6mWZ_Zr2gnSjwQjaD58Oc2I-owWXFu/view?usp=sharing';
-    window.open(linkUrl, '_blank');
-    console.log("rhy")
-  }
+  function downloadResume() {
+  const fileID = 'your-file-id'; // Replace with your actual file ID
+  const linkUrl = `https://drive.google.com/file/d/1Bg6mWZ_Zr2gnSjwQjaD58Oc2I-owWXFu/view?usp=drive_link&id=${fileID}`;
+  const link = document.createElement('a');
+  link.href = linkUrl;
+  link.target = '_blank';
+  link.download = 'your-resume.pdf'; // Set the desired file name
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
 
 </script>
