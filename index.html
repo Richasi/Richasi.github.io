@@ -37,18 +37,12 @@
       <li><a href="#contact" class="nav-link contact">Contact</a></li>
       <li>
 
-        <button id="resume-button-1">
-          <a class="nav-link resume" 
-           id="resume-link-1"
-           href="assets\pdf\Richa-Singh-Resume.pdf"
-           target="_blank"
-           download="Richa-Singh-Resume.pdf" 
-           onclick="openLink()" 
-           ><i class="uil uil-message nav__icon"></i> Resume
-      </a>
-      </button>
+     
+        <a href="assets\pdf\Richa-Singh-Resume.pdf"  class="nav-link resume" id="resume-button-1" download 
+       > <button onclick="openLink()">
+          <i class="uil uil-message nav__icon"></i> Resume</button>
 
-        
+        </a>
       </li>
 
 
@@ -145,18 +139,11 @@
               <button onclick="openLink()" id="download-resume-btn">Download Resume </button>
             </a> -->
 
-            <a 
-            href="assets\pdf\Richa-Singh-Resume.pdf"
-             id="resume-link-2"
-             target="blank"
-             download="Richa-Singh-Resume"
-             class="button button--flex" 
-              >
-              <button onclick="openLink()" id="resume-button-2"> 
-              Download Resume<i class="uil uil-folder-download button__icon"></i> </button>
-            </a>
+            <a href="assets\pdf\Richa-Singh-Resume.pdf" id="resume-button-2" download class="button button--flex">
+              <button onclick="openLink()">
+              Download Resume<i class="uil uil-folder-download button__icon"></i></button>
 
-           
+            </a>
 
 
           </div>
@@ -615,9 +602,8 @@
   GitHubCalendar(".calender", "Richasi", { responsive: true });
   function openLink() {
     // Replace 'https://example.com' with the actual URL you want to open
-    
+    window.location.assign("https://drive.google.com/file/d/1Bg6mWZ_Zr2gnSjwQjaD58Oc2I-owWXFu/view?usp=sharing")
     const linkUrl = 'https://drive.google.com/file/d/1Bg6mWZ_Zr2gnSjwQjaD58Oc2I-owWXFu/view?usp=sharing';
-   window.location.assign('https://drive.google.com/file/d/1Bg6mWZ_Zr2gnSjwQjaD58Oc2I-owWXFu/view?usp=sharing')
     window.open(linkUrl, '_blank');
     console.log("rhy")
   }
