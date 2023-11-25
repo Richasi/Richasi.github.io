@@ -156,7 +156,10 @@ const getCurrentIcon = () =>
     themeButton.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
 
 
-
+    document.getElementById("resume-button-1").onclick = () => {
+        window.open("https://drive.google.com/file/d/1Bg6mWZ_Zr2gnSjwQjaD58Oc2I-owWXFu/view?usp=drive_link");
+    }
+    
 // testing js
 
 let header = document.querySelector("header");
@@ -178,6 +181,3 @@ window.onscroll = () => {
 
 
 
-document.getElementById("resume-button-1").onclick = () => {
-    window.open("https://drive.google.com/file/d/1Bg6mWZ_Zr2gnSjwQjaD58Oc2I-owWXFu/view?usp=drive_link");
-}
