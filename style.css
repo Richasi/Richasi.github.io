@@ -2123,7 +2123,7 @@ form textarea {
     right: 0;
     display: flex;
     flex-direction: column;
-    background-color: rgb(214, 183, 194);
+    background-color:  #ECF2FF;
     box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
     transition: 0.2s ease;
     text-align: center;
@@ -2136,7 +2136,7 @@ form textarea {
   .navbar a {
     padding: 1.5rem;
     display: block;
-    background: var(--bg-color);
+    background-color: #ECF2FF;
   }
 
   #darkmode {
