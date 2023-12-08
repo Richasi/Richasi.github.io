@@ -157,7 +157,7 @@ const getCurrentIcon = () =>
 
 
     document.getElementById("resume-button-1").onclick = () => {
-        window.open("https://drive.google.com/file/d/1Bg6mWZ_Zr2gnSjwQjaD58Oc2I-owWXFu/view?usp=drive_link");
+        window.open("https://drive.google.com/file/d/1BesL2IRQjomOdLsUGmpyZwkkELCgRndU/view?usp=sharing");
     }
     
 // testing js
