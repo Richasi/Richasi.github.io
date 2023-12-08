@@ -228,6 +228,8 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  
+  
   .nav__menu {
     position: fixed;
     bottom: -100%;
@@ -2078,6 +2080,7 @@ form textarea {
     --big-font: 2.7rem;
     --medium-font: 1.4rem;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -2258,6 +2261,8 @@ form textarea {
   color: var(--first-color);
 }
 
+@media screen and (max-width: 768px) {
+
 .left_pannel {
   display: none;
 }
@@ -2265,5 +2270,4 @@ form textarea {
 .right_pannel {
   display: none;
 }
-
-
+}
