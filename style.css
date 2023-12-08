@@ -2258,6 +2258,12 @@ form textarea {
   color: var(--first-color);
 }
 
+.left_pannel {
+  display: none;
+}
 
+.right_pannel {
+  display: none;
+}
 
 
