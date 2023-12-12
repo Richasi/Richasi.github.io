@@ -461,7 +461,28 @@ img {
   display: flex;
   justify-content: center;
 }
+.about_img_container {
+  width: 80%;
+  max-width: 300px; /* Adjust the max-width as needed */
+  height: 250px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 50%; /* Set to 50% for a circular shape */
+  transition: ease-in-out 0.25s;
+  background: #E3DFFD;
+  position: relative;
+  z-index: 2;
+  margin-top: -30px; /* Adjust the margin-top to move it higher */
+}
 
+/* .about_img_container>img {
+  /* transform: scale(1.2) translateY(-25px);
+  aspect-ratio: 3/5;
+  object-fit: contain; */
+
+
+.about_img_container:hover::after {
+  transform: translate(-7px, -7px);
+}
 /*==================== SKILLS ====================*/
 .skills__container{
   row-gap:0;
