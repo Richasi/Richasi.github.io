@@ -2135,3 +2135,138 @@ form textarea {
 .contact_buttonss{
   color: var(--first-color);
 }
+
+
+/*! -------------|Contact|----------- */
+#contact {
+  height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact>.section_title::after {
+  flex: 0.5;
+  /* width: 50%; */
+}
+
+.contact_layout_container {
+  flex: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.contact-info-container>span {
+  color: var(--text-lighter);
+  /* font-weight: 700; */
+  /* flex: 1; */
+  /* text-align: left; */
+  /* margin-bottom: 20px; */
+  font-size: var(--large-font);
+}
+
+.contact-info-container {
+  /* width: 30%; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 50px;
+}
+
+.contact-info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: 2px solid var(--first-color);
+  /* box-shadow: rgba(255, 255, 255, 0.4) 1.5px 1.5px 2px; */
+  /* background: var(--card-color); */
+  padding: 20px 0;
+  border-radius: 10px;
+  border: none;
+  gap: 0.2rem;
+}
+.contact-info-card>span:nth-child(3){
+  color: var(--grey-light);
+}
+
+.contact-info-card:hover {
+  transform: translate(-2px, -2px);
+  background: #0986d40c;
+}
+
+
+.contact-info-card>img {
+  width: 10%;
+  color: var(--grey-dark);
+  margin: 0 20px;
+}
+
+.contact-info-card>span {
+  /* text-align: center; */
+  margin: 0 10px;
+  color: var(--grey-dark);
+}
+
+.contact-mobile-active {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.contact-mobile-active>span {
+  font-size: clamp(30px, 8vw, 40px);
+  color: var(--grey-dark);
+  font-weight: 900;
+}
+
+.contact-mobile-active>p {
+  width: 60%;
+  text-align: center;
+  color: var(--grey-light);
+  font-size: var(--small-font);
+  margin-top: 20px;
+}
+
+.contact-mobile-active>a {
+  padding: 12px 25px;
+  border-radius: 4px;
+  color: var(--first-color);
+  margin-top: 20px;
+  border: 2px solid var(--first-color);
+}
+.contact-mobile-active>a:hover{
+  background: var(--first-color);
+  color: var(--body-color);
+  font-weight: 700;
+}
+
+/*! -------------|Footer|----------- */
+.mobile_footer_icons {
+  display: none;
+}
+
+.footer-section {
+  text-align: center;
+  flex: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  /* margin-bottom: 0.25rem; */
+  margin-top: 1.25rem;
+}
+
+.footer-section>p {
+  line-height: 10px;
+  font-size: var(--smaller-font);
+  color: var(--grey-dark);
+  font-weight: 500;
+  letter-spacing: 1.3px;
+}
+
+.footer-section>p>a {
+  color: var(--first-color);
+}
