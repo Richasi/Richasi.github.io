@@ -1043,22 +1043,30 @@ img {
 .contact__title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  border: none;
+  outline: none;
 }
 
 .contact__subtitle {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
+  border: none;
+  outline: none;
 }
 
 .contact__content {
   background-color: var(--input-color);
   border-radius: .5rem;
   padding: .75rem 1rem .25rem;
+  border: none;
+  outline: none;
 }
 
 .contact__label {
   font-size: var(--smaller-font-size);
   color: var(--title-color);
+  border: none;
+  outline: none;
 
 }
 
@@ -2271,3 +2279,16 @@ form textarea {
   display: none;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
