@@ -527,10 +527,17 @@ img {
 
 /*==================== ABOUT ====================*/
 .home-img {
-  width: 200px;
-  border-radius: .5rem;
+  width: 250px;
+  border-radius: 50%;
   justify-self: center;
   align-self: center;
+  
+}
+.home__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .about__description {
