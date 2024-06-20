@@ -157,10 +157,10 @@ const getCurrentIcon = () =>
 
 
     document.getElementById("resume-button-1").onclick = () => {
-        window.open("https://drive.google.com/file/d/1_e4w_IUXvOaZQNl5fUx11Ew_ju-_Uezu/view?usp=sharing");
+        window.open("https://drive.google.com/file/d/1wtPJg0Gmb-IWjDCnQCm-x9Jf7mXWLlJm/view?usp=sharing");
     }
     document.getElementById("resume-button-2").onclick = () => {
-        window.open("https://drive.google.com/file/d/1_e4w_IUXvOaZQNl5fUx11Ew_ju-_Uezu/view?usp=sharing");
+        window.open("https://drive.google.com/file/d/1wtPJg0Gmb-IWjDCnQCm-x9Jf7mXWLlJm/view?usp=sharing");
     }
 // testing js
 
